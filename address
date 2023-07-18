@@ -1,0 +1,24 @@
+import java.util.*;
+class q1{
+	public static void main(String args[]){
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the Name:");
+		String a= scan.nextLine();
+		System.out.println("Enter the father name:");
+		String b=scan.nextline();
+		System.out.println("Enter the Door no:");
+		String c= scan.nextLine();
+		System.out.println("Enter the Street name:");
+		String d=scan.nextline();
+		System.out.println("Enter the City:");
+		String e= scan.nextLine();
+		System.out.println("Enter the Area:");
+		String f=scan.nextline();		
+		System.out.println("Enter the pincode:");
+		String g= scan.nextLine();
+		System.out.println("		MY ADRESS");
+		System.out.println("Name:	"+a);
+		System.out.println();
+		
+	}
+}
