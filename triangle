@@ -1,0 +1,17 @@
+import java.util.*;
+
+class a{
+public static void main(String[]args){
+Scanner in=new Scanner(System.in);
+int s=in.nextInt();
+Scanner u=new Scanner(System.in);
+int a=u.nextInt();
+Scanner m=new Scanner(System.in);
+int b=m.nextInt();
+Scanner k=new Scanner(System.in);
+int c=k.nextInt();
+double area=s*(s-a)*(s-b)*(s-c);
+System.out.println("area of the triangle:"+area);
+System.out.println("area of the triangle:"+Math.sqrt(area));
+}
+}
