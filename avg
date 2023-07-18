@@ -1,0 +1,21 @@
+import java.util.*;
+
+class ca{
+public static void main(String[]args){
+Scanner in=new Scanner(System.in);
+int s=in.nextInt();
+Scanner u=new Scanner(System.in);
+int a=u.nextInt();
+Scanner m=new Scanner(System.in);
+int b=m.nextInt();
+Scanner k=new Scanner(System.in);
+int c=k.nextInt();
+Scanner q=new Scanner(System.in);
+int d=q.nextInt();
+int sum=s+a+b+c+d;
+int avg=sum/5;
+System.out.println("sum: "+sum);
+System.out.println("average: "+avg);
+}
+}
+
